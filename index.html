@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense Manager</h1>
+    <form id="expenseForm">
+        <label for="name">Expense Name:</label>
+        <input type="text" id="name" required>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" required>
+        <button type="submit">Add Expense</button>
+    </form>
+
+    <h2>Expense List</h2>
+    <ul id="expenseList"></ul>
+    <button id="totalButton">Calculate Total</button>
+    <h3 id="totalDisplay"></h3>
+    <script src="script.js"></script>
+</body>
+</html>
